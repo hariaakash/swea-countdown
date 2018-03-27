@@ -43,6 +43,6 @@ function run_clock(id, endtime) {
 
 function startTime() {
     run_clock('clockdiv', deadline);
-	var myClock = document.getElementById('startdiv');
-    myClock.style.display = 'none';
+	document.getElementById('startdiv').style.display='none';
+	document.getElementById('clockdiv').style.display='block';
 }

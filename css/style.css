@@ -1,12 +1,12 @@
 body {
     text-align: center;
-    background: #3498db;
+    background: radial-gradient(circle, #23272a, #29afe2);
     font-family: sans-serif;
     font-weight: 100;
 }
 
 h1 {
-    color: black;
+    color: white;
     font-weight: 100;
     font-size: 40px;
     margin: 40px 0px 20px;
@@ -49,7 +49,7 @@ a:hover {
 #clockdiv div>span {
     padding: 15px;
     border-radius: 3px;
-    background: #34495e;
+    background: #e74c3c;
     display: inline-block;
 }
 
